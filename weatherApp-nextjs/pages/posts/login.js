@@ -22,8 +22,6 @@ class Login extends react.Component {
         this.state = {
             signinType : "login",
         }
-
-        // console.log(this.getwindowsize());
     }
 
     getwindowsize()
