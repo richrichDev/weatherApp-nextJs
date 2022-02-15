@@ -28,3 +28,9 @@ Route::get("nowdata", [weathernowAPI::class, 'getNowWeather']);
 
 Route::get("loginapi", [loginAPI::class, 'login']);
 Route::get("registerapi", [loginAPI::class, 'registerAcc']);
+
+Route::get("saveplace", [saveplaceAPI::class, 'savePlace']);
+
+Route::get("setunit", [setunitAPI::class, 'setUnit']);
+
+Route::get("deleteplace", [deleteplaceAPI::class, 'deleteplace']);

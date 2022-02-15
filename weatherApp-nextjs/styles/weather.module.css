@@ -1,0 +1,118 @@
+.logoutbtn {
+    right: 50px;
+    position: absolute;
+    float: right;
+    top: 20px;
+}
+
+.listblock {
+    width: 100%;
+    display: block;
+}
+
+.listblock .placeslist {
+    display: block;
+}
+
+.listblock .placeslist .eachplacenotclicked {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+    display: inline-block;
+    padding: 7px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.listblock .placeslist .eachplaceclicked {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+    display: inline-block;
+    padding: 7px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+    background-color: grey;
+}
+
+.listblock .placeslist .eachplacenotclicked h6 {
+    display: inline-block;
+    margin: 0;
+}
+
+.listblock .placeslist .eachplacenotclicked p{
+    display: inline-block;
+    margin: 0;
+    margin-left: 8px;
+    color: lightgrey;
+}
+
+.listblock .placeslist .eachplacenotclicked p:hover{
+    cursor: pointer;
+    color: grey;
+}
+
+.listblock .placeslist .eachplaceclicked h6 {
+    display: inline-block;
+    margin: 0;
+}
+
+.listblock .placeslist .eachplaceclicked p{
+    display: inline-block;
+    margin: 0;
+    margin-left: 8px;
+    color: lightgrey;
+}
+
+.listblock .placeslist .eachplaceclicked p:hover{
+    cursor: pointer;
+    color: grey;
+}
+
+.listblock .placeslist h6:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.box {
+    border: 1px solid black;
+    width: 20%;
+    height: fit-content;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 100px;
+}
+
+
+.placenotclicked {
+
+}
+
+
+.placeclicked {
+    background-color: grey;
+}
+
+.unitblock {
+    margin-left: 0px;
+}
+
+.unitblock .unitnotclicked {
+    background-color: grey;
+    border: 0px;
+}
+
+.unitblock .unitclicked {
+    color: red;
+    border: 0px;
+}
+
+.unitblock button:hover{
+    color: red;
+    cursor: pointer;
+}
+
