@@ -1,5 +1,5 @@
 1- Download all project to a folder
-2- DB file (mysql DB) add it to phpmyadmin in mamp
+2- DB file (mysql DB) add it to phpmyadmin in mamp and then run mamp 
 3- open terminal navigate to laravelproject and type : php artisan serve
 4- open terminal navigate to weatherApp-nextJs folder and type : npm run dev
 5- open browser and navigate to : localhost:3000
